@@ -1,0 +1,15 @@
+Package: OBaNK
+Type: Package
+Title: Structure Learning of Multi-omics Data Using Bayesian Networks and External Knowledge
+Version: 0.1.0
+Authors@R: person("Bridget", "Tripp", email = "bridget_tripp@yahoo.com", role = c("aut", "cre"))
+Maintainer: Bridget A. Tripp <bridget_tripp@yahoo.com>
+Description: OBaNK (Omics Integration Using Bayesian Networks and External Knowledge) learns 
+    the interaction structure of multiomics data through probabilistic graphical modeling and
+    external knowledge. OBaNK takes as input a single matrix (csv) of omics data generated from a two-
+    group experimental design and learns the interactions between the different omics.   
+License: 
+Encoding: UTF-8
+LazyData: true
+Imports: bnlearn (>= 4.6.1), Rgraphviz (>= 2.36.0), plyr (>= 1.8.6), graph (>=1.70.0), gtools (>= 3.8.2)
+
